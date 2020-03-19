@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".fragment.EditProfileFragment">
+
+        <TextView
+            android:id="@+id/tv_edit_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:lineSpacingExtra="30sp"
+            android:text="Edit profile "
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_edit_first_name"
+            style="@style/App_EditTextStyle"
+            android:layout_marginTop="64dp"
+            android:drawableStart="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="@dimen/et_sign_up_email_drawable_padding"
+            android:ems="10"
+            android:hint="@string/hint_first_name"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_edit_profile" />
+
+
+        <EditText
+            android:id="@+id/et_edit_last_name"
+            style="@style/App_EditTextStyle"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/hint_last_name"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_edit_first_name" />
+
+        <EditText
+            android:id="@+id/et_edit_phone_number"
+            style="@style/App_EditTextStyle"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_smartphone_call"
+            android:drawableLeft="@drawable/ic_smartphone_call"
+            android:drawablePadding="@dimen/et_sign_up_email_drawable_padding"
+            android:ems="10"
+            android:hint="@string/enter_phone_number"
+            android:inputType="phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_edit_last_name" />
+
+        <EditText
+            android:id="@+id/et_edit_address"
+            style="@style/App_EditTextStyle"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/tv_address"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_edit_phone_number" />
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/btn_login_design"
+            android:paddingLeft="@dimen/btn_login_padding"
+            android:paddingRight="@dimen/btn_login_padding"
+            android:text="@string/btn_update"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_edit_address" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

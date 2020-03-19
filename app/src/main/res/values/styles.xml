@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#228B22</item>
+        <item name="colorPrimaryDark">#008000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="App_EditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/rounded_edit_text</item>
+        <item name="android:textColor">#808080</item>
+        <item name="android:padding">@dimen/email_side_margin</item>
+        <item name="android:layout_width">@dimen/size_0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MyDialog" parent="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowNoTitle">false</item>
+    </style>
+
+    <style name="App_TextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:typeface">serif</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:layout_marginStart">@dimen/default_margin</item>
+        <item name="android:layout_marginLeft">@dimen/default_margin</item>
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:layout_marginBottom">@dimen/default_margin</item>
+        <item name="android:textSize">@dimen/new_user</item>
+    </style>
+</resources>

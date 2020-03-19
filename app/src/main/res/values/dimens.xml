@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="btn_login_padding">35dp</dimen>
+    <dimen name="default_margin">10dp</dimen>
+    <dimen name="new_user">26sp</dimen>
+    <dimen name="margin_52dp">52dp</dimen>
+    <dimen name="et_sign_up_email_drawable_padding">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="email_side_margin">15dp</dimen>
+    <dimen name="size_0dp">0dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="btn_corner_radius">25dp</dimen>
+</resources>
